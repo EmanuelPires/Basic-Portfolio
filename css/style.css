@@ -53,13 +53,24 @@ p {
 }
 
 footer.page-footer {
-  margin: 0;
+  text-align: right;
 }
 
 a {
   text-decoration: none;
+  color: #26a69a;
+}
+.contactEmail:hover {
+  text-decoration: underline;
+}
+
+.contactEmail {
   color: white;
 }
-a:hover {
-  text-decoration: underline;
+
+.fab {
+  margin-bottom: 18px;
+  color: white;
+  margin-left: 5px;
+  margin-right: 5px;
 }
