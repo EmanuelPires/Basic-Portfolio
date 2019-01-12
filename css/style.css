@@ -68,9 +68,16 @@ a {
   color: white;
 }
 
+.contactNumber {
+  color: white;
+}
+
 @media only screen and (max-width: 600px) {
   .contactEmail {
     font-size: 20px;
+  }
+  .contactNumber {
+    font-size: 15px;
   }
 }
 
